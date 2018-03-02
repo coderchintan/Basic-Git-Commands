@@ -1,4 +1,4 @@
-For cloning the project:
+**For cloning the project:**
 
 	git clone https://github.com/garimachhikara128/test
 	cd test
@@ -9,7 +9,7 @@ For cloning the project:
 	git commit -m "initial commit"
 	git push origin master
 	
-For uploading a directory on git:
+**For uploading a directory on git:**
 
 	git init
 	git add .
