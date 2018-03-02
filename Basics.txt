@@ -1,0 +1,56 @@
+For cloning the project:
+
+	git clone https://github.com/garimachhikara128/test
+	cd test
+
+	made some changes:
+
+	git add .
+	git commit -m "initial commit"
+	git push origin master
+	
+For uploading a directory on git:
+
+	git init
+	git add .
+	git commit -m "initial commit"
+	git remote add origin https://github.com/garimachhikara128/test
+	git pull origin master      (press :wq)
+	git push origin master
+
+	(if doing for 2nd time then don't add origin)
+	git add .
+	git commit -m "second commit"
+	git pull origin master      (press :wq)
+	git push origin master
+	
+	
+git status : to check the status if new file is added or not.
+git log : to check the logs. 
+
+Remove all global users:
+	
+	git config --global --unset-all user.name
+	git config --global --unset-all user.email
+	
+List all global users:
+	git config --global --list
+	
+Setting your git username for every repository on your computer:
+
+	Set a git username:
+		git config --global user.name "Mona Lisa"
+
+	Confirm that you have set the git username correctly:
+		git config --global user.name
+    
+Setting your git username for a single repository:
+
+    Change the current working directory to the local repository where you want to configure the name that is associated with your Git commits.
+
+    Set a git username:
+		git config user.name "Mona Lisa"
+
+    Confirm that you have set the git username correctly:
+		git config user.name
+		Mona Lisa
