@@ -54,3 +54,6 @@ Setting your git username for a single repository:
     Confirm that you have set the git username correctly:
 		git config user.name
 		Mona Lisa
+
+BitBucket :
+	git pull origin master --allow-unrelated-histories
