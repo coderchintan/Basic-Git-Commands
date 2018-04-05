@@ -57,3 +57,9 @@ Setting your git username for a single repository:
 
 BitBucket :
 	git pull origin master --allow-unrelated-histories
+	
+Install git on Linux :
+	sudo apt-get update
+	sudo apt-get install git
+	git config --global user.name "Mona Lisa"
+	git config --global user.email "mona@example.com"
